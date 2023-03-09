@@ -1,0 +1,25 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container{
+  /* width: 80%; */
+  margin: auto;
+  padding: 20px 10px;
+}
+
+.nav-item {
+  font-size: 1.875rem/* 30px */;
+  line-height: 2.25rem/* 36px */;
+  font-family: 'Bangla', sans-serif;
+  transition: 0.3s;
+  margin-right: 1.5rem;
+}
+
+.user-icon {
+  font-size: 1.25rem/* 20px */;
+  line-height: 1.75rem/* 28px */;
+  margin-left: 1.25rem;
+  cursor: pointer;
+  transition: 0.3s;
+}

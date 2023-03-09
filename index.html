@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="./Assets/images/MuktoBazarfavicon.png" type="image/x-icon" />
+  <title>হোম || মুক্ত বাজার</title>
+  <!-- add fontawesome icon -->
+  <link rel="stylesheet" href="./Assets/fontawesome-free-6.3.0-web/css/all.min.css">
+  <script src="./Assets/fontawesome-free-6.3.0-web/js/all.min.js"></script>
+  <!-- add tailwind css file  -->
+  <link rel="stylesheet" href="./dist/output.css">
+  <!-- stylesheet added  -->
+  <link rel="stylesheet" href="./dist/style.css">
+</head>
+<body>
+  <!-- header html code start  -->
+    <header class="border border-black border-b-2">
+      <div class="container">
+        <!-- 1st nav  -->
+        <nav class="flex justify-between items-center">
+          <!-- brand logo -->
+          <div class="logo">
+            <a href="#"><img class="w-24 lg:w-16 rounded-full shadow-md shadow-black" src="./Assets/images/MuktoBazarfavicon.png" alt="MuktoBazar"></a>
+          </div>
+          <!-- nav toggle button  -->
+          <button type="button" class="hidden md:inline md:absolute md:right-5">
+            <span id="toggleBtn"><i class="fa-solid fa-bars text-gray-400 text-xl"></i></span>
+          </button>
+          <!-- nav items  -->
+          <ul class="navbar flex justify-center items-center md:flex-col md:justify-start md:space-y-5 md:absolute md:bg-[#ffffffc9] md:py-5 md:px-5 md:backdrop-blur-sm md:top-5 md:-left-56">
+            <li class="nav-item hover:text-green-600">
+              <a href="#" class="lg:text-xl md:text-3xl">হোম</a>
+            </li>
+            <li class="nav-item hover:text-green-600">
+              <a href="#" class="lg:text-xl md:text-3xl">পণ্যশালা</a>
+            </li>
+            <li class="nav-item hover:text-green-600">
+              <a href="#" class="lg:text-xl md:text-3xl">ব্লগ</a>
+            </li>
+            <li class="nav-item hover:text-green-600">
+              <a href="#" class="lg:text-xl md:text-3xl">আমাদের পরিচয়</a>
+            </li>
+            <li class="nav-item hover:text-green-600">
+              <a href="#" class="lg:text-xl md:text-3xl">আমাদের পন্য</a>
+            </li>
+            <li class="nav-item hover:text-green-600">
+              <a href="#" class="lg:text-xl md:text-3xl">যোগাযোগ</a>
+            </li>
+          </ul>
+          <!-- user,wishlist,cart  -->
+          <div class="icons w-fit flex justify-between items-center text-gray-400 md:absolute md:right-14">
+            <span class="user-icon relative group">
+              <i class="fa-solid fa-users hover:text-green-600 transition"></i>
+              <div class="userDropdown font-bangla flex flex-col justify-start absolute bg-white p-3 space-y-2 border border-gray-200 rounded-sm w-max top-8 left-0 text-gray-500 scale-y-0 origin-top transition group-hover:scale-y-100">
+                <a href="#" class="transition hover:text-green-600">আমার অ্যাকাউন্ট</a>
+                <a href="#" class="transition hover:text-green-600">আমার কার্ট</a>
+                <a href="#" class="transition hover:text-green-600">লগইন</a>
+                <a href="#" class="transition hover:text-green-600">চাহিদা তালিকা</a>
+                <a href="#" class="transition hover:text-green-600">চেকআউট</a>
+              </div>
+            </span>
+            <span class="user-icon">
+              <i class="fa-regular fa-heart hover:text-green-600 transition"></i>
+            </span>
+            <span class="user-icon relative group">
+              <i class="fa-solid fa-cart-flatbed-suitcase hover:text-green-600 transition"></i>
+              <div class="cartDropdown font-bangla flex flex-col justify-start absolute bg-white p-3 space-y-2 border border-gray-200 rounded-sm w-max top-8 -left-40 text-gray-500 scale-y-0 origin-top transition group-hover:scale-y-100">
+                <p>আপনার কার্ট বর্তমানে খালি।</p>
+              </div>
+            </span>
+          </div>
+        </nav>
+        <!-- 2nd nav  -->
+        <nav class="flex justify-between items-center mt-3">
+          <!-- catagoryBtn -->
+          <div class="catagoryBtn">
+            <div class="catagoryWarp flex justify-between items-center space-x-5 text-white bg-green-600 p-3 rounded-sm cursor-pointer">
+              <span><i class="fa-solid fa-list-check"></i></span>
+              <p>CATEGORIES</p>
+              <span><i class="fa-solid fa-angle-down"></i></span>
+            </div>
+          </div>
+          <!-- scarch form  --> 
+          <form class="font-bangla flex justify-end lg:inline w-2/4 sm:hidden">
+            <input class="bg-white border border-gray-400 p-2 rounded-md mr-1 outline-none w-3/4" type="search" placeholder="খুঁজুন">
+            <button class="bg-green-600 text-white p-2 rounded-md border-white hover:bg-white hover:text-green-600  hover:border hover:border-green-600 transition-all w-1/6" type="submit">খুঁজুন</button>
+          </form>
+          <!-- emergency contect  -->
+          <div class="emergency font-bangla flex justify-between items-center space-x-2 text-white bg-red-600 p-3 rounded-sm cursor-pointer">
+            <a href="tel:+4733378901"><i class="fa-solid fa-phone"></i></a>
+            <a href="tel:+4733378901">জরুরি সেবা</a>
+          </div>
+        </nav>
+      </div>
+    </header>
+  <!-- header html code end  -->
+
+
+
+  <script src="./dist/script.js"></script>
+</body>
+</html>

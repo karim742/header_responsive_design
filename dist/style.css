@@ -1,0 +1,6 @@
+@import url('https://fonts.maateen.me/bangla/font.css');  /* font-family: 'Bangla', sans-serif; */
+
+.showNav {
+  transition: 0.4s !important;
+  left: 0px;
+}
