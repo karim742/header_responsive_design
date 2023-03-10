@@ -9,6 +9,8 @@
   <!-- add fontawesome icon -->
   <link rel="stylesheet" href="./Assets/fontawesome-free-6.3.0-web/css/all.min.css">
   <script src="./Assets/fontawesome-free-6.3.0-web/js/all.min.js"></script>
+  <!-- swiperjs css  -->
+  <link rel="stylesheet" href="./Assets/package/swiper-bundle.min.css">
   <!-- add tailwind css file  -->
   <link rel="stylesheet" href="./dist/output.css">
   <!-- stylesheet added  -->
@@ -130,8 +132,51 @@
     </header>
   <!-- header html code end  -->
 
+    <!-- banner html code start  -->
+    <section>
+      <div class="slideContainer">
+        <!-- Slider main container -->
+      <div class="swiper mySwiper">
+        <!-- Additional required wrapper -->
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img class="main-img w-full" src="./Assets/images/banner-1.jpg" alt="banner-1"></div>
+          <div class="swiper-slide"><img class="main-img w-full" src="./Assets/images/banner-2.jpg" alt="banner-2"></div>
+          <div class="swiper-slide"><img class="main-img w-full" src="./Assets/images/banner-3.jpg" alt="banner-3"></div>
+          <div class="swiper-slide"><img class="main-img w-full" src="./Assets/images/banner-4.jpg" alt="banner-4"></div>
+          <div class="swiper-slide"><img class="main-img w-full" src="./Assets/images/banner-5.jpg" alt="banner-5"></div>
+          <div class="swiper-slide"><img class="main-img w-full" src="./Assets/images/banner-6.jpg" alt="banner-6"></div>
+        </div>
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
 
+        <!-- If we need navigation buttons -->
+        <!-- <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div> -->
 
+        <!-- If we need scrollbar -->
+        <!-- <div class="swiper-scrollbar"></div> -->
+      </div>
+      </div>
+    </section>
+    <!-- banner html code end  -->
+
+  <!-- swiperjs script  -->
+  <script src="./Assets/package/swiper-bundle.min.js"></script>
+          <!-- Initialize Swiper -->
+    <script>
+
+      let swiper = new Swiper(".mySwiper", {
+          slidesPerView: 1,
+          spaceBetween: 30,
+          loop:true,
+          grabCursor: true,
+          pagination: {
+              el: ".swiper-pagination",
+              clickable: true,
+          }
+      })
+    </script>
   <script src="./dist/script.js"></script>
 </body>
 </html>
