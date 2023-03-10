@@ -529,6 +529,14 @@ video {
   left: -10rem;
 }
 
+.-right-20 {
+  right: -5rem;
+}
+
+.-right-24 {
+  right: -6rem;
+}
+
 .-right-32 {
   right: -8rem;
 }
@@ -543,18 +551,6 @@ video {
 
 .top-8 {
   top: 2rem;
-}
-
-.-right-20 {
-  right: -5rem;
-}
-
-.-right-24 {
-  right: -6rem;
-}
-
-.-right-28 {
-  right: -7rem;
 }
 
 .z-10 {
@@ -763,6 +759,16 @@ video {
   line-height: 1.75rem;
 }
 
+.text-lg {
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-base {
+  font-size: 1rem;
+  line-height: 1.5rem;
+}
+
 .text-black {
   --tw-text-opacity: 1;
   color: rgb(0 0 0 / var(--tw-text-opacity));
@@ -875,12 +881,22 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
+.group\/subdropfruit:hover .group-hover\/subdropfruit\:rotate-180 {
+  --tw-rotate: 180deg;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
 .group\/maindrop:hover .group-hover\/maindrop\:scale-y-100 {
   --tw-scale-y: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
 .group\/subdrop:hover .group-hover\/subdrop\:scale-x-100 {
+  --tw-scale-x: 1;
+  transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
+}
+
+.group\/subdropHoney:hover .group-hover\/subdropHoney\:scale-x-100 {
   --tw-scale-x: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
@@ -895,7 +911,7 @@ video {
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
 
-.group\/subdropHoney:hover .group-hover\/subdropHoney\:scale-x-100 {
+.group\/subdropfruit:hover .group-hover\/subdropfruit\:scale-x-100 {
   --tw-scale-x: 1;
   transform: translate(var(--tw-translate-x), var(--tw-translate-y)) rotate(var(--tw-rotate)) skewX(var(--tw-skew-x)) skewY(var(--tw-skew-y)) scaleX(var(--tw-scale-x)) scaleY(var(--tw-scale-y));
 }
