@@ -557,6 +557,10 @@ video {
   z-index: 10;
 }
 
+.-z-10 {
+  z-index: -10;
+}
+
 .mr-1 {
   margin-right: 0.25rem;
 }
