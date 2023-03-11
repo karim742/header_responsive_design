@@ -553,12 +553,12 @@ video {
   top: 2rem;
 }
 
-.z-10 {
-  z-index: 10;
-}
-
 .-z-10 {
   z-index: -10;
+}
+
+.z-10 {
+  z-index: 10;
 }
 
 .mr-1 {

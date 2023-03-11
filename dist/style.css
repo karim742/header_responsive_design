@@ -14,11 +14,16 @@
   transition: 0.4s;
 }
 
+.catagoryDropdown {
+  z-index: 999 !important;
+}
+
 .slideContainer{
   max-width: 1520px;
   padding-inline: 15px;
   margin: auto;
   padding: 25px 10px;
+  z-index: -999 !important;
 }
 
 .swiper-wrapper {
