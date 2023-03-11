@@ -53,3 +53,7 @@
 .swiper-pagination-bullet-active {
   background: #16a34a;
 }
+
+.cataSubdrop a:hover {
+  color: #16a34a !important;
+}
